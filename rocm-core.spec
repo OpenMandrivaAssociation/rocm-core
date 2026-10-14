@@ -3,7 +3,7 @@
 
 Name:		rocm-core
 Version:	10.0.0
-Release:	2
+Release:	3
 Summary:	ROCm version and install-path helpers
 License:	MIT
 Group:		System/Libraries
@@ -31,7 +31,7 @@ previously only stubbed the header.
 %package devel
 Summary:	Development files for %{name}
 Group:		Development/C
-Requires:	%{name}%{?_isa} = %{version}-%{release}
+Requires:	%{name}%{?_isa} = %{EVRD}
 
 %description devel
 Headers and CMake package for librocm-core.
