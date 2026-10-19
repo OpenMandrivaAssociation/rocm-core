@@ -2,13 +2,13 @@
 # RCCL, HIP, and others call getROCmVersion() from this library.
 
 Name:		rocm-core
-Version:	10.0.0
-Release:	3
+Version:	10.1.0
+Release:	1
 Summary:	ROCm version and install-path helpers
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/ROCm/rocm-systems
-Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.0/rocm-core.tar.gz#/rocm-core-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.1/rocm-core.tar.gz#/rocm-core-%{version}.tar.gz
 
 BuildSystem:	cmake
 BuildRequires:	cmake
